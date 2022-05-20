@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/BTCNLTHD/static/css/main.a7bad8ba.css",
+    "main.js": "/BTCNLTHD/static/js/main.c38f8342.js",
+    "static/media/logo.svg": "/BTCNLTHD/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/BTCNLTHD/index.html",
+    "main.a7bad8ba.css.map": "/BTCNLTHD/static/css/main.a7bad8ba.css.map",
+    "main.c38f8342.js.map": "/BTCNLTHD/static/js/main.c38f8342.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7bad8ba.css",
+    "static/js/main.c38f8342.js"
+  ]
+}

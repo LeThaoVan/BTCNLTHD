@@ -1,0 +1,20 @@
+[ {
+    "id": 1,
+    "destination": "BT-VT",
+    "category_id": 2
+},
+{
+    "id": 2,
+    "destination": "BT-HCM",
+    "category_id": 2
+},
+{
+    "id": 3,
+    "destination": "HCM-HN",
+    "category_id": 1
+},
+{
+    "id": 4,
+    "destination": "DL-BT",
+    "category_id": 7
+}]
