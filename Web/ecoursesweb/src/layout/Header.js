@@ -31,11 +31,11 @@ function Header() {
         dispatch({"type": "logout"})
     }
 
-    let btn = <Link to="/login" className="nav-link text-danger">Dang nhap</Link>
+    let btn = <Link to="/login" className="nav-link text-danger">Đăng nhập</Link>
     if (user != null)
         btn = <>
             <Link to="/" className="nav-link text-danger">{user.username}</Link>
-            <a href="#" onClick={logout} className="nav-link text-danger">Dang xuat</a>
+            <a href="#" onClick={logout} className="nav-link text-danger">Đăng xuất</a>
         </>
 
     return (

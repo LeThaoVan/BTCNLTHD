@@ -22,7 +22,7 @@ function Home() {
                     query += `kw=${kw}`
                 else
                     query += `&kw=${kw}`  
-
+            
             const res = await Api.get(`${endpoints['route']}?${query}`)
             setRoute(res.data.results)
         }
@@ -33,14 +33,19 @@ function Home() {
     return (
         <Container>
             <h1 className="text-center text-danger">Điểm đến</h1>
+            <div>
+                <h6>Chọn điểm đến</h6> 
+                
+                {route.length == 0 && <Spinner animation="grow" />}
             
-            {route.length == 0 && <Spinner animation="grow" />}
-            
-            <Row>
-                {route.map(c => {
-                    return <Item id={c.id} image={c.image} name={c.name} />
-                })}
-            </Row>
+                <select>
+                    {route.map(c => {
+                        return <Item id={c.id} name={c.destination} />
+                    })}
+                </select>
+            </div>
+           
+
         </Container>   
     )
 }

@@ -2,6 +2,7 @@
   "name": "ecoursesweb",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://LeThaoVan.github.io/BTCNLTHD/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
@@ -13,10 +14,16 @@
     "@testing-library/user-event": "^13.2.1",
     "axios": "^0.27.2",
     "bootstrap": "^4.6.0",
+    "cors": "^2.8.5",
+    "gh-pages": "^4.0.0",
+    "moment": "^2.29.3",
+    "moment-timezone": "^0.5.34",
     "react": "^18.1.0",
     "react-bootstrap": "^2.4.0",
     "react-cookies": "^0.1.1",
     "react-dom": "^18.1.0",
+    "react-moment": "^1.1.2",
+    "react-rating": "^2.0.5",
     "react-redux": "^8.0.1",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
@@ -28,7 +35,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
