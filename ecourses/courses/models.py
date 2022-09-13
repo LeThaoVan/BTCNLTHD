@@ -5,7 +5,6 @@ from ckeditor.fields import RichTextField
 
 
 class User(AbstractUser):
-
     avatar = models.ImageField(null=True, upload_to='users/%Y/%m')
 
 

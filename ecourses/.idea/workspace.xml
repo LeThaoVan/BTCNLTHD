@@ -7,16 +7,11 @@
     <list default="true" id="d254b2e0-64fa-497f-9baf-2c5225f5c265" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../Web/ecoursesweb/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Web/ecoursesweb/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Web/ecoursesweb/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Web/ecoursesweb/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Web/ecoursesweb/public/Route.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Web/ecoursesweb/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Web/ecoursesweb/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Web/ecoursesweb/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Web/ecoursesweb/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Web/ecoursesweb/src/component/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Web/ecoursesweb/src/component/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Web/ecoursesweb/src/configs/Api.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Web/ecoursesweb/src/configs/Api.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Web/ecoursesweb/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Web/ecoursesweb/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Web/ecoursesweb/src/layout/Item.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Web/ecoursesweb/src/layout/Item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Web/ecoursesweb/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Web/ecoursesweb/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecourses/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ecourses/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/courses/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/courses/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,5 +82,16 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="load lại" />
     <option name="LAST_COMMIT_MESSAGE" value="load lại" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/courses/views.py</url>
+          <line>183</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
